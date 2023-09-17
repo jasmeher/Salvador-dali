@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #000;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  min-height: 10vh;
+  border-top: 5px solid #000;
+  border-bottom: 2px solid #000;
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+  padding-inline: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav-left,
+.nav-center,
+.nav-right {
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding-inline: 40px;
+}
+
+.nav-left {
+  flex: 2;
+  background-color: #f7f7f7;
+  min-width: 40%;
+}
+
+.nav-left h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-left p {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.nav-center {
+  flex: 1;
+  background-color: #f7f7f7;
+  min-width: 20%;
+}
+
+.nav-right {
+  flex: 2;
+  background-color: #f7f7f7;
+  min-width: 40%;
+}
+
+.icons {
+  display: flex;
+}
+.icons .material-symbols-outlined {
+  font-size: 1.4rem;
+}
+
+.hero-section {
+  min-height: 90vh;
+  padding-inline: 5px;
+  display: flex;
+}
+
+.hero-left,
+.hero-right {
+  background-color: #f7f7f7;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+.hero-left {
+  flex: 3;
+  padding: 20px 40px 40px 40px;
+  min-width: 60%;
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.hero-left p {
+  font-size: 12.5rem;
+}
+
+.dali {
+  display: flex;
+  gap: 1rem;
+}
+
+.dali span {
+  margin-top: 2.75rem;
+}
+
+.hero-right {
+  flex: 2;
+  padding: 40px;
+}
